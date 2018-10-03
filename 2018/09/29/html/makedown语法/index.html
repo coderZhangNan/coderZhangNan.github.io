@@ -165,7 +165,8 @@
 <p>1.# 一级标题 #         </p><h1>一级标题</h1><br>2.## 二级标题 ##       <h2>二级标题</h2><br>这里支持h1到h6，这种写法相当于html的写法<p></p>
 <p>2.列表</p>
 <p>无序列表</p>
-<p>1.<em> 1<br>2.</em> 2<br>3.<em> 3<br>4.+ 1<br>5.+ 2<br>6.+ 3<br>7.- 1<br>8.- 2<br>9.- 3<br>注意空格，无序列表可以用</em> ， + ， — 来创建，实际上是转换成了ul&gt;li </p>
+<p>1.<em> 1<br>2.</em> 2<br>3.* 3</p>
+<p>注意空格，无序列表可以用* ， + ， — 来创建，实际上是转换成了ul&gt;li </p>
 <p>有序列表</p>
 <p>数字后面的点只能是英文的点，特别注意，有序列表的序号是根据第一行列表的数字顺序来的</p>
 <p>3.引用</p>
@@ -177,26 +178,23 @@
 <p>行内式</p>
 <p>1.<a href="链接">链接文字</a>举一反三文字</p>
 <p>[导航]（<a href="https://baidu.com）怎么用" target="_blank" rel="noopener">https://baidu.com）怎么用</a></p>
-<p>2.<em> <a href="链接">链接文字</a><br>3.</em> <a href="链接">链接文字</a></p>
+<p>2.* <a href="链接">链接文字</a><br>3.* <a href="链接">链接文字</a></p>
 <ul>
 <li><a href="https://baidu.com" target="_blank" rel="noopener">导航1</a></li>
 <li><a href="https://baidu.com" target="_blank" rel="noopener">导航二</a></li>
 </ul>
-<p>4.</p><p><a href="https://baidu.com" title="百度" target="_blank" rel="noopener">导航</a></p><p></p>
+<p>4.’</p><p><a href="https://baidu.com" title="百度" target="_blank" rel="noopener">导航</a></p>‘<p></p>
 <p><a href="https://baidu.com" title="百度" target="_blank" rel="noopener">导航</a></p>
 
 <p>参数式</p>
 <p>1.<a href="http://example.com/" title="名称" target="_blank" rel="noopener">name</a>: <a href="http://example.com/" target="_blank" rel="noopener">http://example.com/</a> “名称”<br>2.<a href="http://example.com/" title="首页" target="_blank" rel="noopener">home</a>: <a href="http://example.com/" target="_blank" rel="noopener">http://example.com/</a>  “首页”<br>3.<a href="http://example.com/" title="乱写的" target="_blank" rel="noopener">其他</a>: <a href="http://example.com/" target="_blank" rel="noopener">http://example.com/</a>  “乱写的”<br>4.这里是<a href="http://example.com/" title="名称" target="_blank" rel="noopener">name</a>,这里是<a href="http://example.com/" title="首页" target="_blank" rel="noopener">home</a>,这里是<a href="http://example.com/" title="乱写的" target="_blank" rel="noopener">其他</a></p>
 <p>这里是<a href="http://example.com/" title="名称" target="_blank" rel="noopener">name</a>,这里是<a href="http://example.com/" title="首页" target="_blank" rel="noopener">home</a>,这里是<a href="http://example.com/" title="乱写的" target="_blank" rel="noopener">其他</a></p>
 <p>6.图片</p>
-<p>1.行内式<a href="https://baidu.com" target="_blank" rel="noopener">链接图片</a><br>2.参数式<a href="https://baidu.com" target="_blank" rel="noopener">图片</a></p>
-<ol start="3">
-<li>这里是[图片]<br>4.用法和链接是一样的</li>
-</ol>
-<p><a href="https://baidu.com" target="_blank" rel="noopener">链接图片</a><br>参数式<a href="https://baidu.com" target="_blank" rel="noopener">图片</a><br>这里是[图片]</p>
+<p>1.行内式<a href="https://baidu.com" target="_blank" rel="noopener">链接图片</a><br>2.参数式<a href="https://baidu.com" target="_blank" rel="noopener">图片</a><br>3.这里是[图片]<br>4.用法和链接是一样的</p>
+<p><a href="https://baidu.com" target="_blank" rel="noopener">链接图片</a><br><a href="https://baidu.com" target="_blank" rel="noopener">图片</a><br>这里是[图片]</p>
 <p>7.代码框</p>
 <p>如果只有一行，可用单引号<br>1.’代码’<br>如果有多行，可用三个反引号<br>1.’’’可写注释<br>2.</p><p><a href="https://baidu.com" title="百度" target="_blank" rel="noopener">导航</a></p><br>3.<p><a href="https://baidu.com" title="百度" target="_blank" rel="noopener">导航</a></p><br>4.<p><a href="https://baidu.com" title="百度" target="_blank" rel="noopener">导航</a></p><br>5.’’’<p></p>
-<p>‘’’可写注释</p>
+<p>‘’’’可写注释’</p>
 <p></p><p><a href="https://baidu.com" title="百度" target="_blank" rel="noopener">导航</a></p><p></p>
 <p></p><p><a href="https://baidu.com" title="百度" target="_blank" rel="noopener">导航</a></p><p></p>
 <p></p><p><a href="https://baidu.com" title="百度" target="_blank" rel="noopener">导航</a></p><br>‘’’<p></p>
@@ -267,14 +265,12 @@
 </tr>
 </tbody>
 </table>
-<p>边框问题</p>
 <p>9.强调</p>
 <p>1.<em>字体倾斜</em><br>2_字体倾斜_<br>3.<strong>字体加粗</strong><br>4.<strong>字体加粗</strong></p>
-<p><em>字体倾斜</em><br><em>字体倾斜</em><br><strong>字体加粗</strong><br><strong>字体加粗</strong></p>
 <p>10.转义</p>
 <p>在想用的符号前面加一个”\”<br>1.\?<br>\?</p>
 <p>11.删除线</p>
-<p>1.<del>删除我</del><br><del>删除我</del></p>
+<p>1.<del>删除我</del></p>
 <p>  其实用H5语法也可</p>
 
             </div>
