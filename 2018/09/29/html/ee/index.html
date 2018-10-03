@@ -158,52 +158,124 @@
             <div class="typo" style="padding: 3rem;">
                 <p>1.标题的几种写法</p>
 <p>第一种</p>
-<p>1.# 一级标题<br>2.## 二级标题</p>
-<h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p>只能到h6，h1下面会有一条横线，#后面有空格<br>第二种</p>
-<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><p>这种方法只能表示一级和二级标题，而且=和-的数量没有限制，只要大于一个就行<br>第三种</p>
-<h1 id="一级标题-一级标题"><a href="#一级标题-一级标题" class="headerlink" title="一级标题 #         一级标题"></a>一级标题 #         <h1>一级标题</h1></h1><h2 id="二级标题-二级标题"><a href="#二级标题-二级标题" class="headerlink" title="二级标题 ##       二级标题"></a>二级标题 ##       <h2>二级标题</h2></h2><p>这里支持h1到h6，这种写法相当于html的写法<br>2.列表</p>
+<p>1.# 一级标题<br>2.## 二级标题<br>3.### 三级标题<br>4.#### 四级标题<br>5.##### 五级标题<br>6.###### 六级标题<br>只能到h6，h1下面会有一条横线，#后面有空格</p>
+<p>第二种</p>
+<p>1.这是一级标题<br>2.==========<br>3.这是二级标题<br>4.———<br>这种方法只能表示一级和二级标题，而且=和-的数量没有限制，只要大于一个就行</p>
+<p>第三种</p>
+<p>1.# 一级标题 #         </p><h1>一级标题</h1><br>2.## 二级标题 ##       <h2>二级标题</h2><br>这里支持h1到h6，这种写法相当于html的写法<p></p>
+<p>2.列表</p>
 <p>无序列表</p>
+<p>1.<em> 1<br>2.</em> 2<br>3.<em> 3<br>4.+ 1<br>5.+ 2<br>6.+ 3<br>7.- 1<br>8.- 2<br>9.- 3<br>注意空格，无序列表可以用</em> ， + ， — 来创建，实际上是转换成了ul&gt;li </p>
+<p>有序列表</p>
+<p>数字后面的点只能是英文的点，特别注意，有序列表的序号是根据第一行列表的数字顺序来的</p>
+<p>3.引用</p>
+<p>1.&gt; 要引用的话<br>注意是英文的那个右尖括号，注意空格</p>
+<p>引用的嵌套</p>
+<p>1.&gt; 一级引用<br>2.&gt;&gt; 二级引用<br>3.&gt;&gt;&gt; 三级引用<br>4.&gt;&gt;&gt;&gt; 四级引用<br>5.&gt;&gt;&gt;&gt;&gt; 五级引用<br>6.&gt;&gt;&gt;&gt;&gt;&gt; 六级引用<br>7.&gt;&gt;&gt;&gt;&gt;&gt;&gt; 七级引用<br>注意空格，</p>
+<p>4、华丽的分割线</p>
+<p>分割线可以由* - _（星号，减号，底线）这3个符号的至少3个符号表示，注意至少要3个，且不需要连续，有空格也可以<br>5.链接</p>
+<p>行内式</p>
+<p>1.<a href="链接">链接文字</a>举一反三文字</p>
+<p>[导航]（<a href="https://baidu.com）怎么用" target="_blank" rel="noopener">https://baidu.com）怎么用</a></p>
+<p>2.<em> <a href="链接">链接文字</a><br>3.</em> <a href="链接">链接文字</a></p>
 <ul>
-<li>1</li>
-<li>2</li>
-<li>3</li>
+<li><a href="https://baidu.com" target="_blank" rel="noopener">导航1</a></li>
+<li><a href="https://baidu.com" target="_blank" rel="noopener">导航二</a></li>
 </ul>
-<ul>
-<li>1</li>
-<li>2</li>
-<li>3</li>
-</ul>
-<ul>
-<li>1</li>
-<li>2</li>
-<li>3<br>注意空格，无序列表可以用* ， + ， — 来创建，实际上是转换成了ul&gt;li<br>有序列表</li>
-</ul>
-<p>数字后面的点只能是英文的点，特别注意，有序列表的序号是根据第一行列表的数字顺序来的<br>3.引用</p>
-<blockquote>
-<p>要引用的话<br>注意是英文的那个右尖括号，注意空格<br>引用的嵌套</p>
-</blockquote>
-<blockquote>
-<p>一级引用</p>
-<blockquote>
-<p>二级引用</p>
-<blockquote>
-<p>三级引用</p>
-<blockquote>
-<p>四级引用</p>
-<blockquote>
-<p>五级引用</p>
-<blockquote>
-<p>六级引用</p>
-<blockquote>
-<p>七级引用<br>注意空格，<br>4、华丽的分割线</p>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-<p>分割线可以由* - _（星号，减号，底线）这3个符号的至少3个符号表示，注意至少要3个，且不需要连续，有空格也可以</p>
+<p>4.</p><p><a href="https://baidu.com" title="百度" target="_blank" rel="noopener">导航</a></p><p></p>
+<p><a href="https://baidu.com" title="百度" target="_blank" rel="noopener">导航</a></p>
+
+<p>参数式</p>
+<p>1.<a href="http://example.com/" title="名称" target="_blank" rel="noopener">name</a>: <a href="http://example.com/" target="_blank" rel="noopener">http://example.com/</a> “名称”<br>2.<a href="http://example.com/" title="首页" target="_blank" rel="noopener">home</a>: <a href="http://example.com/" target="_blank" rel="noopener">http://example.com/</a>  “首页”<br>3.<a href="http://example.com/" title="乱写的" target="_blank" rel="noopener">其他</a>: <a href="http://example.com/" target="_blank" rel="noopener">http://example.com/</a>  “乱写的”<br>4.这里是<a href="http://example.com/" title="名称" target="_blank" rel="noopener">name</a>,这里是<a href="http://example.com/" title="首页" target="_blank" rel="noopener">home</a>,这里是<a href="http://example.com/" title="乱写的" target="_blank" rel="noopener">其他</a></p>
+<p>这里是<a href="http://example.com/" title="名称" target="_blank" rel="noopener">name</a>,这里是<a href="http://example.com/" title="首页" target="_blank" rel="noopener">home</a>,这里是<a href="http://example.com/" title="乱写的" target="_blank" rel="noopener">其他</a></p>
+<p>6.图片</p>
+<p>1.行内式<a href="https://baidu.com" target="_blank" rel="noopener">链接图片</a><br>2.参数式<a href="https://baidu.com" target="_blank" rel="noopener">图片</a></p>
+<ol start="3">
+<li>这里是[图片]<br>4.用法和链接是一样的</li>
+</ol>
+<p><a href="https://baidu.com" target="_blank" rel="noopener">链接图片</a><br>参数式<a href="https://baidu.com" target="_blank" rel="noopener">图片</a><br>这里是[图片]</p>
+<p>7.代码框</p>
+<p>如果只有一行，可用单引号<br>1.’代码’<br>如果有多行，可用三个反引号<br>1.’’’可写注释<br>2.</p><p><a href="https://baidu.com" title="百度" target="_blank" rel="noopener">导航</a></p><br>3.<p><a href="https://baidu.com" title="百度" target="_blank" rel="noopener">导航</a></p><br>4.<p><a href="https://baidu.com" title="百度" target="_blank" rel="noopener">导航</a></p><br>5.’’’<p></p>
+<p>‘’’可写注释</p>
+<p></p><p><a href="https://baidu.com" title="百度" target="_blank" rel="noopener">导航</a></p><p></p>
+<p></p><p><a href="https://baidu.com" title="百度" target="_blank" rel="noopener">导航</a></p><p></p>
+<p></p><p><a href="https://baidu.com" title="百度" target="_blank" rel="noopener">导航</a></p><br>‘’’<p></p>
+<p>8.表格</p>
+<p>1.|name|age|sex|<br>2.|:–:|:–|–:|<br>3.|m   |2  |女 |<br>4.| 用 | 5 | 女|<br>5.<br>6.表头1|表头2<br>7.—–|——<br>8.123  |456<br>9.456  |456<br>10.<br>11.学号|姓名|分数<br>13.12.-|-|-<br>14.小|女|88<br>15.中|男|99<br>16.大|女|58</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">name</th>
+<th style="text-align:left">age</th>
+<th style="text-align:right">sex</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">m</td>
+<td style="text-align:left">2</td>
+<td style="text-align:right">女</td>
+</tr>
+<tr>
+<td style="text-align:center">用</td>
+<td style="text-align:left">5</td>
+<td style="text-align:right">女</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>表头1</th>
+<th>表头2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>123</td>
+<td>456</td>
+</tr>
+<tr>
+<td>456</td>
+<td>456</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>学号</th>
+<th>姓名</th>
+<th>分数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>小</td>
+<td>女</td>
+<td>88</td>
+</tr>
+<tr>
+<td>中</td>
+<td>男</td>
+<td>99</td>
+</tr>
+<tr>
+<td>大</td>
+<td>女</td>
+<td>58</td>
+</tr>
+</tbody>
+</table>
+<p>边框问题</p>
+<p>9.强调</p>
+<p>1.<em>字体倾斜</em><br>2_字体倾斜_<br>3.<strong>字体加粗</strong><br>4.<strong>字体加粗</strong></p>
+<p><em>字体倾斜</em><br><em>字体倾斜</em><br><strong>字体加粗</strong><br><strong>字体加粗</strong></p>
+<p>10.转义</p>
+<p>在想用的符号前面加一个”\”<br>1.\?<br>\?</p>
+<p>11.删除线</p>
+<p>1.<del>删除我</del><br><del>删除我</del></p>
+<p>  其实用H5语法也可</p>
 
             </div>
 
